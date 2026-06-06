@@ -6,30 +6,37 @@ function HomePage() {
 
   return (
     <main>
-      <section>
-        <div className="row-hero">
-          <div className="column">
-            <h1>Welcome</h1>
-            <p>
-              Welcome to Negin Farzib's portfolio!
-              I am a frontend developer. Here are some of the projects that I have worked on during the past two years.
+      <section className="hero-section py-5">
+        <div className="container">
+          <div className="row align-items-center g-4">
+            <div className="col-lg-7 text-white">
+              <h1 className="display-4 fw-bold">Welcome</h1>
+              <p className="lead mb-0">
+                Welcome to Negin Farzib&apos;s portfolio! I am a frontend developer.
+                Here are some of the projects that I have worked on during the past
+                two years.
               </p>
-          </div>
-          <div className="column">
-            <img 
-              className="hero-image" 
-              src="/hero-image-light.jpg" 
-              alt="My profile photo"
-            />
+            </div>
+            <div className="col-lg-5 text-center">
+              <img
+                className="img-fluid rounded-3 shadow hero-image"
+                src="/hero-image-light.jpg"
+                alt="My profile photo"
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      <section>
-        <div id="thumb-container">
-          {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
+      <section className="py-5">
+        <div className="container">
+          <div className="row g-4">
+            {projects.map((project) => (
+              <div className="col-12 col-md-6 col-xl-4" key={project.id}>
+                <ProjectCard project={project} />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </main>
