@@ -12,9 +12,8 @@ function HomePage() {
             <h1>Welcome</h1>
             <p>
               Welcome to Negin Farzib's portfolio!
-              I am a first-year frontend developer. Here are my projects from my first year. 
-              I have used HTML, CSS, and JavaScript to build these projects.
-            </p>
+              I am a frontend developer. Here are some of the projects that I have worked on during the past two years.
+              </p>
           </div>
           <div className="column">
             <img 

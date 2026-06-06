@@ -29,15 +29,6 @@ export const projectsData = {
         and vanilla JavaScript for interactivity. The site is fully responsive and works seamlessly 
         across desktop, tablet, and mobile devices.
       </p>
-      
-      <h2>Improvements Made</h2>
-      <p>
-        The RainyDays project has been enhanced with improved accessibility features including 
-        better semantic HTML structure and ARIA labels. The CSS has been refactored for better 
-        maintainability, and the JavaScript code has been optimized for better performance. 
-        Additional improvements include enhanced visual feedback for user interactions and 
-        better error handling in the checkout process.
-      </p>
     `
   },
   
@@ -72,15 +63,6 @@ export const projectsData = {
         information including admission prices and hours, and interactive elements that engage 
         younger visitors.
       </p>
-      
-      <h2>Improvements Made</h2>
-      <p>
-        Accessibility has been significantly improved with better color contrast ratios meeting WCAG 
-        standards, more descriptive alt text for all images, and a logical heading hierarchy. The 
-        layout has been refined for better mobile responsiveness, particularly on smaller screens 
-        where children often access content on tablets. Additional improvements include faster 
-        loading times through image optimization and improved navigation clarity.
-      </p>
     `
   },
   
@@ -92,7 +74,7 @@ export const projectsData = {
     live: 'https://enchanting-ganache-c496a6.netlify.app/',
     github: 'https://github.com/NoroffFEU/FED1-PE1-neginfarzib.git',
     fullImage: '/sara-saad-Jt2CU7Yovc0-unsplash.jpg',
-    imageCaption: 'Beauty Buzz - Dynamic Blog Platform',
+    imageCaption: 'Beauty Buzz -Blog',
     content: `
       <h2>Project Overview</h2>
       <p>
@@ -114,15 +96,87 @@ export const projectsData = {
         create new posts with a dedicated editor interface, edit their own posts after publication, 
         delete posts they have written, and view all their published content in a personal dashboard.
       </p>
-      
-      <h2>Improvements Made</h2>
+    `
+  },
+  butterflyforum: {
+    id: 'butterflyforum',
+    title: 'Butterfly Forum',
+    teaser: 'A social media app where users can create posts, follow profiles, comment, react with emojis, and manage content.',
+    image: '/js2.JPG',
+    live: 'https://neginfarzib.github.io/JavaScript2-negin-farzib//',
+    github: 'https://github.com/neginfarzib/JavaScript2-negin-farzib.git',
+    fullImage: '/js2.JPG',
+    imageCaption: 'Social Media App - Homepage',
+    content: `
+      <h2>Project Overview</h2>
       <p>
-        The blog has been enhanced with improved form validation for better data quality, better error 
-        messages to guide users when operations fail, a more polished user interface with improved 
-        typography and spacing, lazy loading for images to improve performance, and enhanced accessibility 
-        features throughout the application. The code has been refactored for better maintainability and follows 
-        modern JavaScript best practices.
+        This project is a front-end social media application developed as part of my frontend development studies. The goal of the project was to build a fully functional client-side application that interacts with an external API to simulate the core functionality of a modern social media platform.
+        The application allows users to register, log in, create and manage posts, interact with other users, and explore content through a dynamic feed interface. The project focuses on user experience, responsive design, API integration, authentication, and CRUD operations using JavaScript.
+      </p>
+      
+      <h2>User Authentication</h2>
+      <p>
+       The application includes user authentication features using the Noroff Authentication API. New users can register an account and existing users can log in securely. Authentication tokens are stored locally to keep users logged in and provide access to protected features such as creating posts, editing content, and viewing personal profile information.
+      </p>
+      
+      <h2>Core Features</h2>
+      <p>
+        The project includes several core social media features. Users can create, edit, and delete posts, view individual posts, and browse posts from other users. Additional functionality includes following and unfollowing users, searching posts through a search bar, reacting to posts with emojis, and viewing user profiles. The application also supports responsive navigation and dynamic content rendering using JavaScript.
+      </p>
+      
+    `
+  },
+  butterflyforumstyled: {
+    id: 'butterflyforum',
+    title: 'Butterfly Forum- CSS frameworks',
+    teaser: 'A Bootstrap-styled social media app where users can create posts, comment, react, follow users, and manage profiles.',
+    image: '/butterflyforum-styled.JPG',
+    live: 'https://neginfarzib.github.io/JavaScript2-negin-farzib//',
+    github:'https://github.com/neginfarzib/JavaScript2-negin-farzib',
+    fullImage: '/butterflyforum-styled.JPG',
+    imageCaption: 'Butterfly Forum - CSS Frameworks',
+    content: `
+      <h2>Project Overview</h2>
+      <p>
+        This project is a styled and improved version of the Butterfly Forum social media application. 
+        The assignment focused on implementing responsive design using Bootstrap and Sass while improving the user interface and overall user experience. 
+        The application allows users to interact through posts, profiles, comments, and reactions in a modern social media environment.
+      </p>
+      
+      <h2>User Authentication</h2>
+      <p>
+        The project includes user authentication using the Noroff Authentication API. Users can register new accounts, log in securely, and access protected features such as creating posts, editing content, and managing their profiles. Authentication data is stored locally to maintain user sessions and improve usability.
+      </p>
+      
+      <h2>Core Features</h2>
+      <p>
+        The application includes several core social media features such as creating, editing, deleting, and viewing posts. Users can follow and unfollow profiles, search through posts using a search bar, react to posts with emojis, and view individual user profiles. The project also includes responsive layouts styled with Bootstrap components and customized using Sass. Form validation was implemented on authentication pages to improve user input handling and accessibility.
       </p>
     `
-  }
+  },
+  onlineshop: {
+    id: 'onlineshop',
+    title: 'Online Shop',
+    teaser: 'A responsive online store built with React and TypeScript , featuring product search, cart management, and checkout.',
+    image: '/public/online-shop.JPG',
+    live: 'https://javascript-framework-negin.netlify.app/',
+    github:'https://github.com/NoroffFEU/jsfw-2025-v1-negin-jsframeworks-ca',
+    fullImage: '/onlineshop.JPG',
+    imageCaption: 'Online Shop',
+    content: `
+      <h2>Project Overview</h2>
+      <p>
+        This project is a fully functional online store built with React, Next.js, and TypeScript. The application fetches product data from a REST API and presents it in a responsive and user-friendly shopping experience. Users can browse products, view detailed product information, search for items, manage a shopping cart, and complete a checkout process. The project was designed to demonstrate modern front-end development practices, API integration, state management, and responsive design.
+      </p>
+      
+      <h2>User Authentication</h2>
+      <p>
+        The project includes user authentication using the Noroff Authentication API. Users can register new accounts, log in securely, and access protected features such as creating posts, editing content, and managing their profiles. Authentication data is stored locally to maintain user sessions and improve usability.
+      </p>
+      
+      <h2>Core Features</h2>
+      <p>The online store includes a product catalog that retrieves data from an external API and displays products in a responsive grid layout. Each product card shows an image, title, rating, and pricing information, including discounts when available. Users can open dedicated product pages to view detailed descriptions, reviews, pricing, and product images. The application also features product search, shopping cart management, quantity adjustments, total price calculation, checkout confirmation, and a fully validated contact form. The entire site is optimized for both desktop and mobile devices.
+      </p>
+    `
+  },
 };
