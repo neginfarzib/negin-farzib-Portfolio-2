@@ -132,7 +132,7 @@ export const projectsData = {
     teaser: 'A Bootstrap-styled social media app where users can create posts, comment, react, follow users, and manage profiles.',
     image: '/butterflyforum-styled.JPG',
     live: 'https://neginfarzib.github.io/JavaScript2-negin-farzib//',
-    github:'https://github.com/neginfarzib/JavaScript2-negin-farzib',
+    github:'https://github.com/neginfarzib/JavaScript2-negin-farzib/tree/css-frameworks',
     fullImage: '/butterflyforum-styled.JPG',
     imageCaption: 'Butterfly Forum - CSS Frameworks',
     content: `
