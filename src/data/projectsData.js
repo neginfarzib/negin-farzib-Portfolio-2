@@ -13,7 +13,7 @@ export const projectsData = {
     content: `
       <h2>Project Overview</h2>
       <p>
-        RainyDays is an e-commerce website designed to sell high-quality raincoats for men and women. 
+        RainyDays is  an e-commerce website designed to sell high-quality raincoats for men and women. 
         This project demonstrates a complete online store experience with product listings, detailed 
         product pages, shopping cart functionality, and a checkout process.
       </p>
