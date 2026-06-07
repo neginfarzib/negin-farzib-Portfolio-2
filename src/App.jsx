@@ -5,7 +5,7 @@ import ArticlePage from './pages/ArticlePage';
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />

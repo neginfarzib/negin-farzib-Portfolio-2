@@ -1,12 +1,14 @@
+const asset = (fileName) => `${import.meta.env.BASE_URL}${fileName}`;
+
 export const projectsData = {
   rainyday: {
     id: 'rainyday',
     title: 'RainyDays',
     teaser: 'An online raincoat store for men and women with smooth navigation, add-to-cart, checkout, and responsive design for all devices.',
-    image: '/Norronare.jpg',
+    image: asset('Norronare.jpg'),
     live: 'https://neginfarzib.github.io/html-CSS-CA-Neg/',
     github: 'https://github.com/neginfarzib/html-CSS-CA-Neg.git',
-    fullImage: '/Norronare.jpg',
+    fullImage: asset('Norronare.jpg'),
     imageCaption: 'RainyDays - Online Raincoat Store',
     content: `
       <h2>Project Overview</h2>
@@ -36,10 +38,10 @@ export const projectsData = {
     id: 'sciencemuseum',
     title: 'Community Science Museum',
     teaser: 'A responsive museum website designed for kids aged 7–15 and their families to learn science through interactive content.',
-    image: '/samuel-zeller-113381.jpg',
+    image: asset('samuel-zeller-113381.jpg'),
     live: 'https://neginfarzib.github.io/sp1-semester-project/',
     github: 'https://github.com/neginfarzib/sp1-semester-project.git',
-    fullImage: '/samuel-zeller-113381.jpg',
+    fullImage: asset('samuel-zeller-113381.jpg'),
     imageCaption: 'Community Science Museum - Educational Resource',
     content: `
       <h2>Project Overview</h2>
@@ -70,10 +72,10 @@ export const projectsData = {
     id: 'beautybuzz',
     title: 'Beauty Buzz Blog',
     teaser: 'A responsive blog web app with user authentication and post management using an API to create, edit, and delete posts.',
-    image: '/sara-saad-Jt2CU7Yovc0-unsplash.jpg',
+    image: asset('sara-saad-Jt2CU7Yovc0-unsplash.jpg'),
     live: 'https://enchanting-ganache-c496a6.netlify.app/',
     github: 'https://github.com/NoroffFEU/FED1-PE1-neginfarzib.git',
-    fullImage: '/sara-saad-Jt2CU7Yovc0-unsplash.jpg',
+    fullImage: asset('sara-saad-Jt2CU7Yovc0-unsplash.jpg'),
     imageCaption: 'Beauty Buzz -Blog',
     content: `
       <h2>Project Overview</h2>
@@ -102,10 +104,10 @@ export const projectsData = {
     id: 'butterflyforum',
     title: 'Butterfly Forum',
     teaser: 'A social media app where users can create posts, follow profiles, comment, react with emojis, and manage content.',
-    image: '/js2.JPG',
+    image: asset('js2.JPG'),
     live: 'https://neginfarzib.github.io/JavaScript2-negin-farzib//',
     github: 'https://github.com/neginfarzib/JavaScript2-negin-farzib.git',
-    fullImage: '/js2.JPG',
+    fullImage: asset('js2.JPG'),
     imageCaption: 'Social Media App - Homepage',
     content: `
       <h2>Project Overview</h2>
@@ -130,10 +132,10 @@ export const projectsData = {
     id: 'butterflyforum',
     title: 'Butterfly Forum- CSS frameworks',
     teaser: 'A Bootstrap-styled social media app where users can create posts, comment, react, follow users, and manage profiles.',
-    image: '/butterflyforum-styled.JPG',
+    image: asset('butterflyforum-styled.JPG'),
     live: 'https://neginfarzib.github.io/JavaScript2-negin-farzib//',
     github:'https://github.com/neginfarzib/JavaScript2-negin-farzib/tree/css-frameworks',
-    fullImage: '/butterflyforum-styled.JPG',
+    fullImage: asset('butterflyforum-styled.JPG'),
     imageCaption: 'Butterfly Forum - CSS Frameworks',
     content: `
       <h2>Project Overview</h2>
@@ -158,10 +160,10 @@ export const projectsData = {
     id: 'onlineshop',
     title: 'Online Shop',
     teaser: 'A responsive online store built with React and TypeScript , featuring product search, cart management, and checkout.',
-    image: '/public/online-shop.JPG',
+    image: asset('online-shop.JPG'),
     live: 'https://javascript-framework-negin.netlify.app/',
     github:'https://github.com/NoroffFEU/jsfw-2025-v1-negin-jsframeworks-ca',
-    fullImage: '/onlineshop.JPG',
+    fullImage: asset('onlineshop.JPG'),
     imageCaption: 'Online Shop',
     content: `
       <h2>Project Overview</h2>

@@ -3,6 +3,7 @@ import { projectsData } from '../data/projectsData';
 
 function HomePage() {
   const projects = Object.values(projectsData);
+  const heroImage = `${import.meta.env.BASE_URL}hero-image-light.jpg`;
 
   return (
     <main>
@@ -20,7 +21,7 @@ function HomePage() {
             <div className="col-lg-5 text-center">
               <img
                 className="img-fluid rounded-3 shadow hero-image"
-                src="/hero-image-light.jpg"
+                src={heroImage}
                 alt="My profile photo"
               />
             </div>
